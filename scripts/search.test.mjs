@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {score,normalize} from '../docs/search.js';
+test('busca reconhece nomes alternativos, acentos e erros comuns',()=>{const names=['Breaking Bad','Breaking Bad: A Química do Mal'];assert.ok(score('quimica do mal',names)>0);assert.ok(score('breking bad',names)>0);assert.ok(score('braking bad',names)>0);assert.ok(score('freinds',['Friends'])>0);assert.equal(score('dexter',names),0);assert.equal(normalize('A Química do Mal'),'a quimica do mal')});

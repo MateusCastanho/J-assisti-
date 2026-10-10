@@ -23,4 +23,3 @@ Node.js 22 ou superior. Sem instalação de dependências.
 `npm run check` — validação de JavaScript e testes
 
 Fontes públicas: [TVmaze](https://www.tvmaze.com/api), [Wikidata](https://www.wikidata.org), Apple. Datas de estreia são previstas e a cobertura é parcial.
-

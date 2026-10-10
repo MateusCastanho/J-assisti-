@@ -1,0 +1,10 @@
+{
+  "name": "episodio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check docs/app.js && node --test scripts/*.test.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}
