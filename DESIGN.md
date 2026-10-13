@@ -1,12 +1,10 @@
-# Episódio — direção visual
+# Direção: experiência do TV Time em tema escuro
 
-Biblioteca pessoal de filmes e séries. A tarefa principal é encontrar um título e acompanhar o que falta assistir.
+Referência explícita do usuário: TV Time; organização do suporte oficial em Watch List / Upcoming, miniaturas de séries, próximo episódio e check à direita. Sem comentários, resenhas ou descrições.
 
-Paleta: fundo ameixa #191821; painel #22212c; texto #f5f2ed; secundário #b2aebb; linha #3c3949; destaque manteiga #efce81.
-Tipografia: Barlow Condensed 600/700 nos títulos (referência a créditos e cartazes); DM Sans 400–700 nos controles.
-Assinatura: títulos condensados grandes acima de uma parede de capas, com uma pequena marca de ingresso no logotipo.
+Paleta: fundo #181818, superfície #242424, divisórias #383838, texto #fafafa, destaque #ffda00, visto #69c58b.
+Tipografia: Roboto 700 nos títulos pequenos, Roboto 400/500 nas listas e controles. A fidelidade à referência substitui a direção anterior de cartazes cinematográficos.
 
-Desktop: [listas 220px] [título / adicionar | busca + filtros | capas em 4–6 colunas].
-Celular: [marca + adicionar] [listas em duas linhas] [título | busca | filtros] [2 capas por linha].
+Layout: [Séries / busca] [Para assistir / Lançamentos / Em dia / Quero assistir] [miniatura | nome + T/E | check]. Barra inferior: Séries, Filmes, Descobrir, Biblioteca. Biblioteca abre diretamente em Já assisti. Desktop mantém o mesmo fluxo com largura limitada.
 
-Crítica: um banner de cinema ocuparia espaço sem ajudar a acompanhar episódios. Foi descartado. Sem números decorativos, hero, resenhas ou estatísticas. As capas são o conteúdo visual; os controles ficam discretos. Reduzir os três botões por cartão a uma ação principal e uma ação rápida; desistir continua disponível no seletor do título.
+O check da fila marca apenas o próximo episódio regular já lançado; oferece desfazer. O botão genérico de já assisti permanece nos cartões da biblioteca. Histórico pessoal continua no navegador; o repositório público não inclui exportações pessoais.
