@@ -8,6 +8,7 @@ function equal(a,b){
   const ak=Object.keys(a).filter(k=>a[k]!==undefined).sort(),bk=Object.keys(b).filter(k=>b[k]!==undefined).sort();
   return ak.length===bk.length&&ak.every((k,i)=>k===bk[i]&&equal(a[k],b[k]));
 }
+export {equal as sameSyncValue};
 const copy=x=>structuredClone(x);
 function mergeObject(base={},local={},remote={}){
   const out={};
